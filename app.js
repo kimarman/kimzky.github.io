@@ -39,6 +39,17 @@ function updateChange() {
         change.value = "0.00";
     }
 }
+function calculateChange() {
+    var total = parseFloat(totalInput.value);
+    var cash = parseFloat(cashInput.value);
+
+    if (!isNaN(total) && !isNaN(cash)) {
+        var change = cash - total;
+        changeInput.value = change.toFixed(2);
+    } else {
+        changeInput.value = "";
+    }
+}
 
 qty1.addEventListener("keyup", addOrder);
 qty2.addEventListener("keyup", addOrder);
