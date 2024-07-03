@@ -1,0 +1,45 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    color: #343a40;
+    margin-top: 20px;
+}
+
+hr {
+    border-top: 2px solid #343a40;
+    width: 50%;
+}
+
+label {
+    font-size: 1.2em;
+    color: #495057;
+    margin-top: 10px;
+}
+
+input.form-control,
+textarea.form-control {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#total, #change {
+    font-weight: bold;
+    background-color: #e9ecef;
+}
+
+.img-thumbnail {
+    border: none;
+    margin-top: 10px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+textarea#carts {
+    height: 200px;
+    resize: none;
+}
